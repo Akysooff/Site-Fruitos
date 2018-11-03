@@ -1,9 +1,9 @@
-@media (max-width: 681.98px) {body{	margin-right: 0%;margin-left: 0%;font-size: 15px;} .header{	display: flex;flex-direction: column;align-items: center;} #menu li{display: flex;flex-direction: column;justify-content: center; align-items:center;font-size: 20px;}/*Partie team-Fortnite*/.h-for{display:flex;justify-content: center;align-items: center;}.img-for{display: flex;flex-direction: column;justify-content: center;align-items: center;} span.n-span {margin-left: 40px;} }
-@media (min-width: 682px) and (max-width: 787.98px) {body{margin-right: 0%;margin-left: 0%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;}}
-@media (min-width: 788px) and (max-width: 884.98px) {body{margin-right: 5%;margin-left: 5%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;}}
-@media (min-width: 885px) and (max-width: 1011.98px) {body{margin-right: 10%;margin-left: 10%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;}}
-@media (min-width: 1012px) and (max-width: 1199.98px) {body{margin-right: 15%;margin-left: 15%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 45px;}}
-@media (min-width: 1200px) { body{margin-right: 20%;margin-left: 20%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;}}                                            
+@media (max-width: 681.98px) {body{	margin-right: 0%;margin-left: 0%;font-size: 15px;} .header{	display: flex;flex-direction: column;align-items: center;}#menu li{display: flex;flex-direction: column;justify-content: center; align-items:center;font-size: 20px;}/*Partie team-Fortnite*/.h-for{display:flex;justify-content: center;align-items: center;}.img-for{display: flex;flex-direction: column;justify-content: center;align-items: center;} span.n-span {margin-left: 40px;}h1.h-lol{display: flex;flex-direction: column;justify-content:center;align-items: center;}.img-lol{display: flex;flex-direction: column;align-items: center;justify-content: center;}}
+@media (min-width: 682px) and (max-width: 787.98px) {body{margin-right: 0%;margin-left: 0%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;}h1.h-lol{display: flex;justify-content:flex-end;}.img-lol{display: flex;justify-content: space-between;}}
+@media (min-width: 788px) and (max-width: 884.98px) {body{margin-right: 5%;margin-left: 5%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;}h1.h-lol{display: flex;justify-content:flex-end;}.img-lol{display: flex;justify-content: space-between;}}
+@media (min-width: 885px) and (max-width: 1011.98px) {body{margin-right: 10%;margin-left: 10%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;}h1.h-lol{display: flex;justify-content:flex-end;}.img-lol{display: flex;justify-content: space-between;}}
+@media (min-width: 1012px) and (max-width: 1199.98px) {body{margin-right: 15%;margin-left: 15%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 45px;}h1.h-lol{display: flex;justify-content:flex-end;}.img-lol{display: flex;justify-content: space-between;}}
+@media (min-width: 1200px) { body{margin-right: 20%;margin-left: 20%;font-size: 15px;}.header{display: flex;justify-content: space-between;}#menu li{display: inline-flex;flex-direction: row-reverse;font-size: 20px;}/*Partie Team-fortnite*/.img-for{display: flex;justify-content: space-between;} span.n-span {margin-left: 40px;} /*Partie Team-lol*/h1.h-lol{display: flex;justify-content:flex-end;}.img-lol{display: flex;justify-content: space-between;}}                                            
  																																																																																																			
 body
 {
@@ -40,6 +40,11 @@ ul#menu li a:activate {color: grey;}
 }
 .txt-for{
 
+}
+/*Partie Team lol*/
+.h-lol{
+	border-top: solid 4px;
+	border-top-color: grey;
 }
 
 
