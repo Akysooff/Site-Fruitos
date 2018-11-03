@@ -15,6 +15,7 @@ body
 
 }
 .header{
+	font-family: Arial, sans-serif;
 	border-bottom: solid 6px;
 	border-bottom-color: grey;
 }
@@ -32,8 +33,14 @@ ul#menu li a:activate {color: grey;}
 	border-top: solid 6px;
 	border-top-color: grey;
 }
-
-
+a#footer-link:link{color: blue;}
+a#footer-link:visited{color: blue;}
+a#footer-link:hover{color: blue;}
+a#footer-link:activate{color: blue;}
+.sec-team a:link{color: black; text-decoration: none;}
+.sec-team a:visited{color: black;}
+.sec-team a:hover{color: black;}
+.sec-team a:activate{color: black;}
 /*Partie Team-fortnite*/
 .img-for{
 
@@ -45,6 +52,42 @@ ul#menu li a:activate {color: grey;}
 .h-lol{
 	border-top: solid 4px;
 	border-top-color: grey;
+}
+/*Partie twitch */
+.twitch-aky{
+	display: flex;
+}
+#txt-b{color: white;}
+.twitch-tay{
+	display: flex;
+	border-top: solid 6px;
+	border-top-color: white;
+}
+/*Partie profil*/
+.prof{
+	display: flex;
+	justify-content: space-between;
+}
+.bio{text-align: right;}
+.h-bio{text-align: left;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'Cantarell-Regular';
+    src: url('Cantarell-Regular.ttf');
 }
 
 
